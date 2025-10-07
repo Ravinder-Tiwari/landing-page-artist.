@@ -1,0 +1,449 @@
+@font-face {
+    font-family: f1;
+    src: url(./NeueMachina-Light_gwWCZxVuQl.ttf);
+}
+
+@font-face {
+    font-family: f2;
+    src: url(./LufgaRegular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: f1;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: black
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    font-family: f1;
+}
+
+.navbar>h1 {
+    font-size: 1.5rem;
+}
+
+.nav_box {
+    display: flex;
+    gap: 2rem;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.181);
+}
+
+.interact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.color_text:hover {
+    color: rgb(189, 246, 4);
+}
+
+.interact>a {
+    border: 1px solid rgb(189, 246, 4);
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: all 1s;
+}
+
+.interact>a:hover {
+    background-color: rgba(190, 246, 4, 0.404);
+
+}
+
+.interact>i {
+    color: yellow;
+}
+
+.interact>i:hover {
+    border-radius: 50%;
+    padding: 15px;
+    background-color: rgba(255, 255, 0, 0.246);
+}
+
+.main {
+    padding: 30px;
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    text-align: center;
+    background-image: url("https://freakish-mind-clone-arpan.netlify.app/assets/hero.webp");
+    position: relative;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-position: center 300px;
+}
+
+.main>h2 {
+    font-size: 4rem;
+    font-weight: 300;
+
+}
+
+.main>h3 {
+    font-size: 4rem;
+    font-family: f2;
+}
+
+h2>i {
+    color: rgb(189, 246, 4);
+}
+
+#arrow_img {
+    position: relative;
+    top: -10%;
+    left: -18%;
+}
+
+#monkey_logo {
+    /* position: absolute; */
+    background-color: rgba(128, 128, 128, 0.184);
+    border-radius: 50%;
+    box-shadow: -4px -4px 10px rgb(134, 219, 14);
+    padding: 10px;
+    position: relative;
+    left: -45%;
+    top: 100px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    color: white;
+    /* justify-content: center; */
+}
+
+#rating_1 {
+    font-size: 3rem;
+    border-bottom: 4px solid rgb(134, 219, 14);
+    padding: 20px 0;
+}
+
+#rating_3 {
+    font-size: 3rem;
+
+    padding: 20px 0;
+}
+
+.span {
+    color: rgb(134, 219, 14);
+}
+
+.rating_logo {
+    height: 6rem;
+
+}
+
+#rating_img {
+    height: 100%;
+    margin-right: 50px;
+}
+
+.main2 {
+    background-color: rgba(0, 0, 0, 0.969);
+    padding: 70px;
+    position: relative;
+    /* height: 100%; */
+}
+
+/* .shape {
+  height: 400px;
+  width: 300px;
+  background-color: rgb(236, 67, 126);
+  color: white;
+}
+.path{
+    clip-path: path("M 10,40 L 70,40 L 80,30 L 80,10 L 90,0  L 140 0 L 150,10 L 150,190  L 140,200 L 10,200 L 0,190 L 0,50 L 10,40 Z");
+} */
+
+.advertise {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 60px;
+    justify-content: space-between;
+    font-size: 1.3rem;
+
+}
+
+.trend {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trend>h5 {
+    font-size: 1.3rem;
+    color: rgb(134, 219, 14);
+    ;
+}
+
+#trend_title2 {
+    font-size: 3rem;
+    font-family: f1;
+    font-weight: 100;
+}
+
+.advertise_p>p {
+    margin-bottom: 10px;
+}
+
+.advertise_button {
+    display: flex;
+    gap: 15px;
+}
+
+.advertise_button>button {
+    padding: 15px 15px;
+    border-radius: 12px;
+    background-color: black;
+    border: none;
+}
+
+#adbtn1 {
+    box-shadow: 0.1px 0.1px 5px rgba(255, 255, 255, 0.228);
+}
+
+#adbtn2 {
+    box-shadow: 0.1px 0.1px 5px rgba(255, 255, 255, 0.228);
+}
+
+.advertise_button>button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.advertise_button>button>i:hover {
+    color: black;
+}
+
+.advertise_button>button>i {
+    font-size: 40px;
+    color: white;
+}
+
+#arrow_img_advertise {
+    position: relative;
+    left: 18%;
+}
+
+.cards {
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 1468px) {
+.cards{
+    flex-direction: column;
+    gap: 10px;
+}
+}
+.card1 {
+    height: 500px;
+    width: 400px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.sticker1 {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: black;
+    border: 2px solid brown;
+    border-radius: 3px;
+    height: 40px;
+    width: 130px;
+    background-color: rgb(134, 219, 14);
+    position: absolute;
+    padding-bottom: 5px;
+    /* border: 5px; */
+}
+
+.path1 {
+    clip-path: path("M 0,0 L 130,0 L 130,33 L 10,33 L 15,40 L 0,33 L 0,0 Z");
+}
+
+#st1 {
+    top: 20%;
+    left: 3.4%;
+
+}
+
+#st3 {
+    top: 20%;
+    left: 3.4%;
+
+}
+
+#st2 {
+    background-color: rgb(247, 137, 20);
+    top: 20%;
+    left: 3.4%;
+    color: rgba(255, 255, 255, 0.639);
+}
+
+
+.card1_content {
+    height: 450px;
+    width: 350px;
+    background-color: rgb(186, 48, 249);
+    border-radius: 20px;
+    background-image: url("https://freakish-mind-clone-arpan.netlify.app/assets/Mokey-01.png");
+    background-position: bottom;
+    background-size: 34vh;
+    background-repeat: no-repeat;
+}
+
+#card_text {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    flex-direction: column;
+    gap: 5px;
+    /* background-color: red; */
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    font-size: 1.6rem;
+
+}
+
+#card_text2 {
+    height: 100px;
+    width: 100px;
+    flex-direction: column;
+    gap: 5px;
+    /* background-color: red; */
+    position: absolute;
+    top: 85%;
+    left: 15%;
+
+
+}
+
+#card_text>h6 {
+    color: rgba(255, 255, 255, 0.633);
+}
+
+#card_text #h6_2 {
+    font-size: 1.2rem;
+}
+
+#h6_3 {
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: 3px;
+    font-family: f2;
+}
+
+.card2_content {
+    height: 450px;
+    width: 350px;
+    background-color: rgb(134, 219, 14);
+    border-radius: 20px;
+    background-image: url("https://freakish-mind-clone-arpan.netlify.app/assets/Mokey-02.png");
+    background-position: bottom;
+    background-size: 34vh;
+    background-repeat: no-repeat;
+}
+
+.card3_content {
+    height: 450px;
+    width: 350px;
+    background-color: rgb(247, 137, 20);
+    border-radius: 20px;
+    background-image: url("https://freakish-mind-clone-arpan.netlify.app/assets/Monkey-03.png");
+    background-position: bottom;
+    background-size: 34vh;
+    background-repeat: no-repeat;
+}
+
+#diamond {
+    color: rgb(242, 191, 5);
+}
+
+.path {
+    clip-path: path("M 0,0 L 150,0 L 220,60 L 340,60 A 10,10 0,0,1,350,70  L 350,450 L 220,450 L 220,400 A 10,10 0,0,0,210,390  L 10,390 A  10,10 0,0,1,0,380 L 0,0 Z");
+    /* clip-path: path("M 40,0 L 350,0  350,0 350,40 L 350,450 Q 350,450 310,450 L 0,450 Q 0,450 0,410 L 0,40 Q 0,0 40,0 Z"); */
+}
+
+.card_button {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+@media (max-width: 1468px) {
+ .card_button  {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card_button>button{
+    width:200px;
+  }
+}
+.card_button>button {
+    padding: 20px 70px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: f2;
+}
+
+#cd_btn1 {
+    background-color: rgba(128, 128, 128, 0.138);
+    box-shadow: 4px 4px rgb(186, 48, 249);
+}
+
+#cd_btn2 {
+    background-color: rgba(128, 128, 128, 0.138);
+    box-shadow: 4px 4px rgb(134, 219, 14);
+}
+
+#cd_btn3 {
+    background-color: rgba(128, 128, 128, 0.138);
+    box-shadow: 4px 4px rgb(247, 137, 20);
+}
